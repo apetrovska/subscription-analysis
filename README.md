@@ -14,7 +14,7 @@ A mobile app offers two subscription types:
 | Trial | $6.99 | $29.99 | Monthly |
 | Non-trial | $40.00 | $40.00 | Quarterly |
 
-Each user record contains: subscription type, first payment date, and total number of rebills. The full payment timeline is not stored directly — it was reconstructed using `UNNEST(GENERATE_ARRAY())` to expand each user row into individual payment events.
+Each user record contains: subscription type, first payment date, and total number of rebills. The full payment timeline is not stored directly - it was reconstructed using `UNNEST(GENERATE_ARRAY())` to expand each user row into individual payment events.
 
 ---
 
