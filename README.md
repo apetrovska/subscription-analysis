@@ -5,7 +5,7 @@
 
 ---
 
-##**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
+**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 
 SQL Techniques Used
 
