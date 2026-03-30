@@ -7,7 +7,7 @@
 
 ##**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 
-## SQL Techniques Used
+SQL Techniques Used
 
 - `UNNEST(GENERATE_ARRAY())` to reconstruct payment timelines from aggregated data
 - CTEs for multi-step cohort logic
