@@ -2,7 +2,24 @@
 
 **Tools:** Google BigQuery (Standard SQL), Tableau Public  
 **Dataset:** Mobile app subscription data (anonymized test assignment)
+---
 
+[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)
+
+## SQL Techniques Used
+
+- `UNNEST(GENERATE_ARRAY())` to reconstruct payment timelines from aggregated data
+- CTEs for multi-step cohort logic
+- `DATE_ADD` / `DATE_DIFF` for period calculations
+- Conditional aggregation with `CASE WHEN`
+- Cohort labeling with `EXTRACT(QUARTER/YEAR)`
+
+---
+
+## Tableau Dashboard
+
+Interactive dashboard built on the same dataset:  
+[View on Tableau Public](https://public.tableau.com/views/SubscriptionRevenueCohortAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ---
 
 ## Context
@@ -40,23 +57,6 @@ Each user record contains: subscription type, first payment date, and total numb
 - Trial users generate significantly higher LTV: they average ~8 monthly rebills at $29.99, compared to most non-trial users who churn after the first payment
 - Revenue is highly concentrated in early cohorts with high trial conversion
 - Cohort analysis reveals retention patterns not visible in aggregate revenue totals
-
----
-
-## SQL Techniques Used
-
-- `UNNEST(GENERATE_ARRAY())` to reconstruct payment timelines from aggregated data
-- CTEs for multi-step cohort logic
-- `DATE_ADD` / `DATE_DIFF` for period calculations
-- Conditional aggregation with `CASE WHEN`
-- Cohort labeling with `EXTRACT(QUARTER/YEAR)`
-
----
-
-## Tableau Dashboard
-
-Interactive dashboard built on the same dataset:  
-[View on Tableau Public](https://public.tableau.com/views/SubscriptionRevenueCohortAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
