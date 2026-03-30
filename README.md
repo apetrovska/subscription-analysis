@@ -2,9 +2,10 @@
 
 **Tools:** Google BigQuery (Standard SQL), Tableau Public  
 **Dataset:** Mobile app subscription data (anonymized test assignment)
+
 ---
 
-[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)
+##**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 
 ## SQL Techniques Used
 
