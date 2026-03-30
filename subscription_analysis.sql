@@ -197,7 +197,7 @@ SELECT
             WHEN is_trial = 1 THEN 40 + (subscription_renewal_amount * 40)
         END 
     ) AS avg_ltv 
-FROM `test.subscriptions_data.subscriptions``
+FROM `test.subscriptions_data.subscriptions`
 GROUP BY is_trial
 ORDER BY avg_ltv ASC;
 
