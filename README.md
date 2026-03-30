@@ -4,16 +4,15 @@
 **Dataset:** Mobile app subscription data (anonymized test assignment)
 
 ---
-
-**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
-
-SQL Techniques Used
+## SQL Techniques Used
 
 - `UNNEST(GENERATE_ARRAY())` to reconstruct payment timelines from aggregated data
 - CTEs for multi-step cohort logic
 - `DATE_ADD` / `DATE_DIFF` for period calculations
 - Conditional aggregation with `CASE WHEN`
 - Cohort labeling with `EXTRACT(QUARTER/YEAR)`
+
+**[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 
 ---
 
