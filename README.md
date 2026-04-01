@@ -19,10 +19,22 @@
 **[View SQL Queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 
 ---
+## Python Techniques Used
+
+* `pandas` for data loading, filtering, and aggregation (`groupby`, `agg`, `explode`)
+* `np.where()` for conditional logic (equivalent to SQL `CASE WHEN`)
+* `explode()` on generated lists to reconstruct payment timelines (equivalent to `UNNEST(GENERATE_ARRAY())`)
+* `dt.to_period()` for quarter and month extraction
+* `pivot_table()` for cohort matrix construction
+* `seaborn` and `matplotlib` for visualizations: bar charts, line chart, heatmap
+  
+**[View Python notebook](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis_python.ipynb)**
+---
 
 ## Tableau Dashboard
 
-Interactive dashboard built on the same dataset:  
+Interactive dashboard built on the same dataset:
+
 [View on Tableau Public](https://public.tableau.com/views/SubscriptionRevenueCohortAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 ---
 
