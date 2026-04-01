@@ -16,8 +16,7 @@
 - Conditional aggregation with `CASE WHEN`
 - Cohort labeling with `EXTRACT(QUARTER/YEAR)`
 
-**[SQL](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
-
+**[View SQL queries](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql)**
 ---
 ## Python Techniques Used
 
