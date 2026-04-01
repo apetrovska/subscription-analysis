@@ -1,6 +1,8 @@
 # Subscription Revenue & Cohort Analysis
 
-**Tools:** Google BigQuery (Standard SQL), Tableau Public  
+**Tools:** 
+[SQL](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis.sql) + [Tableau Public](https://public.tableau.com/views/SubscriptionRevenueCohortAnalysis/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+[Python+Pandas + Seaborn](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis_python.ipynb) (same analysis, but different tools used)
 **Dataset:** Mobile app subscription data (anonymized test assignment)
 
 ---
