@@ -5,7 +5,7 @@
 
 - [Python/Pandas + Seaborn/Matplotlib](https://github.com/apetrovska/subscription-analysis/blob/main/subscription_analysis_python.ipynb) (same analysis, but different tools used)
 
-**Dataset:** Mobile app subscription data (anonymized test assignment)
+**Dataset:** Mobile app subscription data ([anonymized test data](https://github.com/apetrovska/subscription-analysis/blob/main/test_dataset_anonymized.xlsx))
 
 ---
 ## SQL Techniques Used
